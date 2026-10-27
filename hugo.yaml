@@ -23,3 +23,7 @@ menus:
 params:
   footer:
     text: "[Privacy](/privacy/)"
+
+  label:
+    icon: /apple-touch-icon.png
+    iconHeight: 52

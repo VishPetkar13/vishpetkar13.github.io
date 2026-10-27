@@ -5,3 +5,7 @@ theme: PaperMod
 services: 
   googleAnalytics: 
     ID: G-GF51RR6ZJH
+
+params:
+  footer:
+    text: "[Privacy](/privacy/)"

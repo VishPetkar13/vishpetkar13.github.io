@@ -44,14 +44,23 @@ body {
   font-family: 'IBM Plex Serif', Georgia, serif;
 }
 
-h1, h2, h3, .logo a {
+h1,
+h2,
+h3,
+.logo a {
   font-family: 'Special Elite', monospace;
   font-weight: normal;
 }
 
 /* ---------- Header (all screens) ---------- */
-.nav {
-  justify-content: center;
+.header-nav {
+  flex-direction: column;
+  align-items: center;
+}
+
+#menu a {
+  font-family: 'Special Elite', monospace;
+  font-size: 1.1rem;
 }
 
 .logo a {
@@ -86,7 +95,7 @@ h1, h2, h3, .logo a {
     font-size: 1.7rem;
   }
 
-    .entry-header h2 {
+  .entry-header h2 {
     font-size: 1.4rem;
   }
 

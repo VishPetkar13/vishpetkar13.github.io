@@ -2,9 +2,23 @@ baseURL: https://vishpetkar13.github.io/
 locale: en-us
 title: Vishal Petkar · Data Field Notes
 theme: PaperMod
-services: 
-  googleAnalytics: 
+services:
+  googleAnalytics:
     ID: G-GF51RR6ZJH
+
+menus:
+  main:
+    - name: "Posts"
+      pageRef: /posts
+      weight: 10
+
+    - name: "Tags"
+      pageRef: /tags
+      weight: 20
+
+    - name: "About"
+      pageRef: /about
+      weight: 30
 
 params:
   footer:

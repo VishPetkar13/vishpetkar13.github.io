@@ -1,7 +1,7 @@
 ---
 title: "When an Old Hard Drive Starts Dying: A Troubleshooting Walkthrough"
 date: 2026-10-27
-draft: true
+draft: false
 tags: ["troubleshooting", "windows", "storage", "hard-drive", "legacy", "corrupted-partitions"]
 summary: "Bad block errors, two corrupted partitions and a repair popup I almost clicked. How I worked out what was wrong and fixed it without losing my files."
 ShowToc: true
